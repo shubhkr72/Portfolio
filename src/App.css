@@ -1,0 +1,43 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .Nav-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.gradient-navbar {
+  background: linear-gradient(to right, #181d22, #0b0416); /* Blue to purple */
+}
+#header{
+  background-color: #211c29;
+}
+.card-img-hover img {
+  transition: transform 0.3s ease;
+}
+
+.card-img-hover:hover img {
+  transform: scale(1.2);
+  z-index: 20; /* Keeps it above other elements */
+}
+.fixed-circle {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+    z-index: 9999;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(132, 49, 49, 0.2);
+}
+
